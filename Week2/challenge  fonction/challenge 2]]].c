@@ -5,7 +5,7 @@ int main(void) {
  int x, y;
 
  printf("Entrez deux entiers: ");
- scanf("%d%d", &x, &y);
+ scanf("%d", &y);
  printf("\nAvant d'appeler fonction Echange:\n\tx = %d\n\ty = %d\n", x, y);
  Echange(&x, &y);
  printf("\nAprès d'appeler fonction Echange:\n\tx = %d\n\ty = %d\n", x, y);
